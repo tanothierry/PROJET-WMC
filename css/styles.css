@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 :root{
     --color-primary: #E98E1B;
@@ -20,7 +20,7 @@ html{
 
 body{
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* NAVBAR ****************************/
@@ -28,7 +28,7 @@ body{
 
 .navbar{
     background: var(--color-secondary);
-    height: 80px;
+    min-height: 80px;
     width: 100%;
 }
 
@@ -43,26 +43,27 @@ body{
 .navbar ul{
     float: right;
     margin-right: 20px;
+    margin-bottom: 0;
 }
 
 .navbar ul li{
     display: inline-block;
     line-height: 80px;
-    margin: 0 5px;
+    margin: 4px 0px;
 }
 
 .navbar ul li a{
     color: white;
     font-size: 17px;
-    padding: 7px 13px;
+    padding: 10px 13px;
     border-radius: 3px;
     text-transform: uppercase;
 }
 
-.navbar ul li a.active, .navbar ul li a:hover{
+/* .navbar ul li a.active, .navbar ul li a:hover{
     background: #1b9bff;
     transition: .5s;
-}
+} */
 
 .checkbtn{
     font-size: 30px;
