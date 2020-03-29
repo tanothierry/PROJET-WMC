@@ -36,6 +36,10 @@ body{
     padding: 0;
 }
 
+.marCard-10{
+    margin-top: 10rem;
+}
+
 a, a:hover{
     text-decoration: none;
 }
@@ -117,7 +121,8 @@ a, a:hover{
     box-shadow: 0px 0px 36px -20px rgba(0,0,0,0.75);
 }
 
-.about-description h3{
+.about-description h3,
+.expertise-description h3{
     text-transform: capitalize;
     font-size: 2.8rem;
     color: var(--color-secondary);
@@ -131,7 +136,8 @@ a, a:hover{
     border-radius: 1.5rem;
 }
 
-.about-description p{
+.about-description p,
+.expertise-description p{
     font-size: 1.6rem;
     text-align: justify;
     margin-top: 3rem;
@@ -188,6 +194,45 @@ a, a:hover{
     color: var(--color-secondary);
 }
 
+/* EXPERTISE  ***************************/
+
+.expertise{
+    margin: 6rem 0;
+    z-index: 999999;
+}
+
+.expertise-description{
+    margin-top: 10rem;
+}
+
+.expertise-illustration{
+    width: 100%;
+    height: 50rem;
+    background-color: var(--color-white);
+    border-radius: 2rem;
+    box-shadow: 0px 0px 36px -20px rgba(0,0,0,0.75);
+    position: absolute;
+    z-index: 99999999;
+    margin-top: 6rem;
+}
+
+/* SECTION FOUR */
+
+.sectionFour{
+    min-height: 40rem;
+    width: 100%;
+    background-color: var(--color-secondary);
+    clip-path: polygon(0 14%, 100% 0, 100% 100%, 0% 100%);
+    margin-top: -5rem;
+}
+
+.sectionFour-card{
+    height: 12rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--color-white);
+}
 
 /* MEDIA QUERIE */
 
