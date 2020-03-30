@@ -40,6 +40,10 @@ body{
     margin-top: 10rem;
 }
 
+.mt-50{
+    margin-top: 5rem;
+}
+
 a, a:hover{
     text-decoration: none;
 }
@@ -130,7 +134,7 @@ a, a:hover{
 }
 
 .divider{
-    width: 10%;
+    width: 7%;
     height: .2rem;
     background-color: var(--color-secondary);
     border-radius: 1.5rem;
@@ -224,14 +228,102 @@ a, a:hover{
     background-color: var(--color-secondary);
     clip-path: polygon(0 14%, 100% 0, 100% 100%, 0% 100%);
     margin-top: -5rem;
+    padding: 4rem;
 }
 
 .sectionFour-card{
     height: 12rem;
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--color-white);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+}
+
+.sectionFour-card:hover{
+    transform: scale(1.15);
+    transition: all .3s;
+}
+
+.sectionFour-card__illustration{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    border: .1rem solid var(--color-primary);
+    box-shadow: 10px 9px 25px -9px rgba(0,0,0,0.75);
+    position: absolute;
+    top: -20%;
+    left: -10%;
+}
+
+.sectionFour-card__description h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.sectionFour-card__description p{
+    font-size: 1.5rem;
+}
+
+/* SECTION FIVE ****************************/
+
+.sectionFive-title{
+    padding: 6rem 0;
+}
+
+.sectionFive-title span{
+    font-weight: bold;
+    color: var(--color-primary);
+    font-size: 1.3rem;
+}
+
+.sectionFive-title h2{
+    font-size: 2.5rem;
+    color: var(--color-secondary);
+}
+
+.sectionFive-title p{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    text-align: justify;
+}
+
+.sectionFive-illustration{
+    height: 23rem;
+    width: 100%;
+    background-color: #f3f3f3;
+    margin-top: 12rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-icon{
+    flex: 1;
+    height: 11.2rem;
+    border-radius: 50%;
+    background-color: var(--color-secondary);
+    margin-right: 3rem;
+}
+
+.icon-info{
+    flex: 3;
+}
+
+.icon-info h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.icon-info p{
+    font-size: 1.5rem;
+    margin-top: 2rem;
 }
 
 /* MEDIA QUERIE */
