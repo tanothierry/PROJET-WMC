@@ -81,7 +81,7 @@ a, a:hover{
 
 .navbar ul li a{
     color: white;
-    font-size: 17px;
+    font-size: 14px;
     padding: 10px 13px;
     border-radius: 3px;
     text-transform: uppercase;
@@ -534,7 +534,7 @@ a, a:hover{
     }
     .navbar ul li{
         display: block;
-        margin: 45px 0;
+        margin: 35px 0;
         line-height: 30px;
     }
 
@@ -711,7 +711,7 @@ a, a:hover{
     }
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 767px){
     .navbar .logo {
         color: 
         white;
