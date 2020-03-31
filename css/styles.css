@@ -128,6 +128,8 @@ a, a:hover{
     margin-top: -10rem;
     border-radius: 2rem;
     box-shadow: 0px 0px 36px -20px rgba(0,0,0,0.75);
+    position: sticky;
+    top: 0;
 }
 
 .about-illustrator img{
@@ -214,7 +216,7 @@ a, a:hover{
 /* EXPERTISE  ***************************/
 
 .expertise{
-    padding: 6rem 0;
+    padding: 0;
     z-index: 999999;
     background-color: var(--color-white);
 }
@@ -225,7 +227,7 @@ a, a:hover{
 
 .expertise-illustration{
     width: 100%;
-    height: 50rem;
+    height: 45rem;
     background-color: var(--color-white);
     border-radius: 2rem;
     box-shadow: 0px 0px 36px -20px rgba(0,0,0,0.75);
@@ -247,7 +249,7 @@ a, a:hover{
 
 .sectionFour-card{
     height: 12rem;
-    width: 60%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--color-white);
@@ -264,8 +266,8 @@ a, a:hover{
 }
 
 .sectionFour-card__illustration{
-    width: 6rem;
-    height: 6rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
     background-color: var(--color-white);
     border: .1rem solid var(--color-primary);
@@ -315,7 +317,7 @@ a, a:hover{
 .sectionFive-illustration{
     height: 23rem;
     width: 100%;
-    background-color: #974848;
+    background-color: #dddddd;
     margin-top: 12rem;
     padding: 3rem;
     display: flex;
@@ -619,7 +621,7 @@ a, a:hover{
 
     .sectionFive-illustration {
         margin-top: 0;
-        height: 18rem;
+        min-height: 18rem;
         width: 100%;
         background-color:
         #974848;
@@ -631,6 +633,8 @@ a, a:hover{
 
     .partenaire{
         margin-top: 5rem;
+        margin-bottom: 2.5rem;
+
     }
 
     .contact-form {
@@ -679,5 +683,29 @@ a, a:hover{
 
     .footer-copyright{
         margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .sectionFive-illustration {
+        margin-top: -2rem;
+    }
+
+    .partenaire {
+        margin-top: 4.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .sectionFour-card {
+        height: 12rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: var(--color-white);
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all .3s;
     }
 }
