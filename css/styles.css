@@ -568,4 +568,15 @@ a, a:hover{
         padding: 2rem;
         text-overflow: ellipsis;
     }
+
+    .services-card{
+        min-height: 20rem;
+        width: 80%;
+        margin: 0 auto;
+        border: .1rem solid rgb(175, 175, 175);
+        /* border-top: .6rem solid var(--color-secondary); */
+        padding: 1rem;
+        border-radius: 1rem;
+        transition: all .5s;
+    }
 }
