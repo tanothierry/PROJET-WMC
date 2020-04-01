@@ -58,7 +58,8 @@ a, a:hover{
 .navbar{
     background: var(--color-secondary);
     width: 100%;
-    padding: 2rem 6rem;
+    padding: 1rem 6rem;
+    z-index: 99999999;
 }
 
 .navbar-nav .nav-item .link-menu{
@@ -74,6 +75,15 @@ a, a:hover{
     color: var(--color-primary)!important;
     transition: all .3s;    
 }
+
+/* jQuery Styles */
+.navbar-scroll{
+	background: var(--color-secondary);
+	padding: 0;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+	transition-duration: 0.6s;
+}
+
 
 /* HEADER ************************/
 
@@ -250,7 +260,7 @@ a, a:hover{
     border-radius: 2rem;
     box-shadow: 0px 0px 36px -20px rgba(0,0,0,0.75);
     position: absolute;
-    z-index: 99999999;
+    z-index: 999;
     margin-top: 6rem;
 }
 
@@ -371,6 +381,19 @@ a, a:hover{
     margin-top: 2rem;
 }
 
+.owl-theme .owl-nav {
+    float: right;
+    height: 4rem;
+    width: 5rem;
+    background: var(--color-primary);
+    margin-top: 0px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.owl-prev,
+.owl-next{
+    font-size:1.8rem;
+}
 /* PARTENAIRE ***************************/
 
 .partenaire{
@@ -627,12 +650,15 @@ a, a:hover{
         left: -14%;
     }
 
+    .sectionFive-card{
+        min-height: 18rem;
+    }
+
     .sectionFive-illustration {
         margin-top: 0;
         min-height: 18rem;
         width: 100%;
-        background-color:
-        #974848;
+        background-color:#974848;
         padding: 3rem;
         display: flex;
         justify-content: center;
@@ -663,7 +689,7 @@ a, a:hover{
 
     .contact-form_input textarea {
         margin: 1rem;
-        width: 100%;
+        max-width: 100%;
         padding-left: 1rem;
         padding-top: 1.3rem;
         font-size: 1.4rem;
