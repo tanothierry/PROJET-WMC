@@ -743,3 +743,41 @@ a, a:hover{
         transition: all .3s;
     }
 }
+
+@media screen and (max-width: 576px){
+    .navbar-light .navbar-brand {
+        width: 8rem;
+        height: 3rem;
+    }
+
+    .navbar {
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .btn.toggler{
+        background: var(--color-white);
+    }
+
+    .header-carousel_title{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        transform: translate(-10%, -30%);
+        width: 30rem;
+    } 
+
+    .header-carousel_item1,
+    .header-carousel_item2,
+    .header-carousel_item3{
+        height: 90vh;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        border-bottom: .5rem solid var(--color-primary);
+    }
+
+    .navbar-nav{
+        text-align: center;
+    }
+}
