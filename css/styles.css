@@ -359,11 +359,18 @@ a, a:hover{
 }
 
 .circle-icon{
-    flex: 1;
+    width: 11.2rem;
     height: 11.2rem;
     border-radius: 50%;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     margin-right: 3rem;
+    padding: 2.2rem;
+}
+
+.circle-icon img{
+    flex: 1;
+    height: auto;
+   object-fit: cover;
 }
 
 .icon-info{
@@ -526,7 +533,7 @@ a, a:hover{
 }
 
 .footer-card{
-    height: 10rem;
+    min-height: 10rem;
     border: 1px solid var(--color-white);
     border-style: dashed;
     display: flex;
@@ -762,7 +769,7 @@ a, a:hover{
     }
 
     .sectionFour{
-        padding-top: 10rem;
+        padding-top: 12rem;
     }
 }
 
