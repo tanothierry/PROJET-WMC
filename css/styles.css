@@ -404,6 +404,14 @@ a, a:hover{
     padding: 0 !important;
     font: inherit;
     font-size: 1.8rem;
+    outline: none;
+}
+
+.owl-nav button.owl-next:focus, 
+.owl-carousel .owl-nav button.owl-prev:focus, 
+.owl-carousel button.owl-dot:focus,
+.owl-carousel .owl-nav button.owl-next:focus {
+    outline: none;
 }
 
 .owl-dots{
@@ -834,5 +842,24 @@ a, a:hover{
 
     .footer-card_info p{
         font-size: 1.4rem;
+    }
+
+    .sectionFive-illustration{
+        display: block;
+        padding: 1rem;
+    }
+    
+    .circle-icon {
+
+        width: 10rem;
+        height: 10rem;
+        margin: 1rem auto;
+        border-radius: 50%;
+        background-color: var(--color-secondary);
+    
+    }
+
+    .owl-item{
+        min-height: 20rem;
     }
 }
