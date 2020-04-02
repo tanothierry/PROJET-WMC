@@ -847,19 +847,27 @@ a, a:hover{
     .sectionFive-illustration{
         display: block;
         padding: 1rem;
+        margin-top: 0;
+        height: 15rem;
     }
     
     .circle-icon {
-
         width: 10rem;
         height: 10rem;
-        margin: 1rem auto;
+        margin: 1.5rem auto;
         border-radius: 50%;
         background-color: var(--color-secondary);
-    
+    }
+
+    .icon-info h2{
+        text-align: center;
+    }
+
+    .icon-info p{
+        display: none;
     }
 
     .owl-item{
-        min-height: 20rem;
+        min-height: 15rem;
     }
 }
